@@ -1,0 +1,33 @@
+{
+    "email" : {
+        "system-email" : "lockrecv@gmail.com",
+        "system-cc" : [
+        	"gujunqi@huawei.com",
+        	"lockrecv@gmail.com",
+            "caowenli@huawei.com",
+            "caibeibei@huawei.com",
+            "duquansong@huawei.com",
+            "duquansong@huawei.com",
+            "peng.zhoupeng@huawei.com",
+            "peng.zhoupeng@huawei.com"           
+        ]
+    },
+    "monitor-servers" : [
+        {            
+            "ip" : "10.141.38.220",
+            "port" : "22",
+            "domain" : "rnd-dtcenter-cd-ssh.huawei.com",
+            "administrator" : "lockrecv@huawei.com"
+        }, {            
+            "ip" : "10.141.38.220",
+            "port" : "3306",
+            "domain" : "rnd-dtcenter-cd-mysql.huawei.com",
+            "administrator" : "duquansong@huawei.com"
+        }, {            
+            "ip" : "10.141.38.220",
+            "port" : "27017",
+            "domain" : "rnd-dtcenter-cd-mongodb.huawei.com",
+            "administrator" : "gujunqi@huawei.com"
+        }
+    ]
+}
