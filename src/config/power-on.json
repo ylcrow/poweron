@@ -2,14 +2,11 @@
     "email" : {
         "system-email" : "lockrecv@gmail.com",
         "system-cc" : [
-        	"gujunqi@huawei.com",
-        	"lockrecv@gmail.com",
+        	"gujunqi@huawei.com",        	
             "caowenli@huawei.com",
             "caibeibei@huawei.com",
-            "duquansong@huawei.com",
-            "duquansong@huawei.com",
-            "peng.zhoupeng@huawei.com",
-            "peng.zhoupeng@huawei.com"           
+            "duquansong@huawei.com",            
+            "peng.zhoupeng@huawei.com"                      
         ]
     },
     "monitor-servers" : [
