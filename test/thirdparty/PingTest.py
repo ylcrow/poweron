@@ -12,14 +12,15 @@ class Test(unittest.TestCase):
         pass
 
     def testPingVerboseOk(self):
+        assert(True)
         self.ping.verbose_ping('www.google.com')
         self.ping.verbose_ping('74.125.128.105')
         self.ping.verbose_ping('www.baidu.com')
         self.ping.verbose_ping('115.239.210.27')
-        self.ping.verbose_ping('localhost')
-        self.ping.verbose_ping('localhost')
+        self.ping.verbose_ping('localhost')        
     
     def testPintVerboseFailed(self):
+        assert(True)
         self.ping.verbose_ping('www.does-not-exist-website.com')
         self.ping.verbose_ping('www.another-does-not-exist-website.com')
 
